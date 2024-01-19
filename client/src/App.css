@@ -1,0 +1,188 @@
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.nav-wrapper{
+  width: 100px;
+  height: 100%;
+  padding: 20px;
+  border-radius: 0px 0px 18px 18px;
+  background: #F9F9F9;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  
+}
+
+.brand-logo {
+  text-decoration: none;
+  font-size: large;
+  align-items: center;
+  margin-left: 30px;
+}
+.links{
+  margin: 0px,0px,0px,0px;
+  padding: 0;
+}
+.links li{
+  padding: 20px;
+  list-style-type: none;
+}
+
+.links li a{
+  text-decoration: none;
+  color: #3D3D3D;
+
+
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.search{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.input{
+  width: 200px;
+  height: 50px;
+}
+
+.dashboard-text{
+  color: #4C4C4C;
+
+
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 50px;
+}
+.card-wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: calc(33.33% - 30px);
+  box-sizing: border-box;
+border-radius: 18px;
+background: #E8E7E7;
+padding: 10px;
+margin-left: 20px;
+margin-bottom: 20px;
+
+}
+.card-content{
+  margin: 20px;
+}
+.subscribe{
+  width: 90px;
+height: 36px;
+border-radius: 22.5px;
+background: #D7E86A;
+border: none;
+}
+.subscribe:hover{
+  cursor: pointer;
+}
+.use{
+  width: 90px;
+height: 36px;
+border-radius: 22.5px;
+background: #D6D7D2;
+border: none;
+margin-left: 20px;
+}
+.use:hover{
+  cursor: pointer;
+}
+.head-text{
+  color: #3D3D3D;
+
+
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.category-text{
+  color: #3D3D3D;
+
+
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+.tiles-pagination button {
+  margin: 0 4px;
+  padding: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 50%;
+  background-color: #d7e86a;
+}
+ 
+.tiles-pagination button.active {
+  background-color: #90a50c;
+  color: black;
+}
+
+
+
+
+
+/* login and register page css */
+.Submitbtn {
+  width: 90px;
+  height: 36px;
+  border-radius: 22.5px;
+  background: #d7e86a;
+  border: none;
+}
+
+.Submitbtn:hover {
+  cursor: pointer;
+  background-color: #90a50c;
+}
+
+
+.register-container {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #504747;
+  border-radius: 5px;
+  padding: 20px 40px;
+  width: 70%;
+}
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #504747;
+  border-radius: 5px;
+  padding: 20px 40px;
+  width: 70%;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  margin-left: 5px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.passworderror{
+  color: rgb(230, 63, 63);
+}
